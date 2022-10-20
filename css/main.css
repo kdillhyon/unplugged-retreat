@@ -14,6 +14,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+
 }
 
 /*
@@ -602,7 +603,7 @@ h3 {
     width: 85%;
   }
 
-  .reviews article figure
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
