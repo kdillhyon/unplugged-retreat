@@ -139,6 +139,14 @@ p {
   line-height: 1.285;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+ margin: 0;
+}
+
 address {
  font-style: normal;
 }
@@ -165,6 +173,14 @@ header {
 
 header .content-wrapper {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header figure {
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,7 +242,6 @@ footer .social-icons {
 footer .social-icons p {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 footer .copyright {
@@ -238,6 +253,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(..img/woman-on-bridge.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -289,6 +308,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/group-of-people-sitting.png');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -527,6 +549,10 @@ h3 {
   }
   /* Hero Area */
 
+.hero-area {
+  min-height: 600px;
+}
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -575,6 +601,7 @@ h3 {
     width: 85%;
   }
 
+  .reviews article div
   .reviews article div {
     width: 49%;
   }
