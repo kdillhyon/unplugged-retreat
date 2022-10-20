@@ -242,6 +242,7 @@ footer .social-icons {
 footer .social-icons p {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 footer .copyright {
@@ -601,7 +602,7 @@ h3 {
     width: 85%;
   }
 
-  .reviews article div
+  .reviews article figure
   .reviews article div {
     width: 49%;
   }
@@ -719,7 +720,7 @@ h3 {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
 }
 
   /* Aside */
@@ -748,12 +749,12 @@ h3 {
 
   /* Reviews */
 
-  .reviews h2 {
-    padding-bottom: 50px;
-  }
-
   .reviews article div {
     width: 42%;
+  }
+
+  .reviews h2 {
+    padding-bottom: 50px;
   }
 
   footer h4 {
