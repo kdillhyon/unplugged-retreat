@@ -114,6 +114,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -125,6 +127,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -263,7 +266,7 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
-  background: url(..img/woman-on-bridge.png);
+  background: url('../img/woman.png')
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -667,6 +670,10 @@ h3 {
       line-height: 1.285;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
   footer .copyright {
     width: 100%;
   }
