@@ -266,7 +266,7 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
-  background: url('../img/woman.png')
+  background: url('../img/woman.png');
   background-size: cover;
   background-position: center;
   min-height: 500px;
